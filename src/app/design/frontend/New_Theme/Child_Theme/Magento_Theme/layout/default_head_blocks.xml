@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- app/design/frontend/New_Theme/Child_Theme/Magento_Theme/layout/default_head_blocks.xml -->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+  <head>
+    <!-- this path is relative to web/js/ -->
+    <script src="New_Theme_Child_Theme::js/popup.js"/>
+  </head>
+</page>

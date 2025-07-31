@@ -1,0 +1,21 @@
+<div id="custom-popup" style="
+    display: block;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    background: #fff;
+    border: 1px solid #000;
+    padding: 20px;
+    z-index: 1000;
+">
+  <p>👋 Hello Mindzer, This is Hussain Darwish</p>
+  <button id="close-popup">Close</button>
+</div>
+
+<script>
+  // Immediately attach the click handler
+  document.getElementById('close-popup').addEventListener('click', function() {
+    document.getElementById('custom-popup').style.display = 'none';
+  });
+</script>
